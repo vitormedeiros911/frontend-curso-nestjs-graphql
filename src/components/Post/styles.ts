@@ -27,9 +27,18 @@ export const UserName = styled.span`
   font-size: 16px;
 `;
 
+export const PostImageWrapper = styled.div`
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  cursor: pointer;
+`;
+
 export const PostImage = styled.img`
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  object-fit: cover;
 `;
 
 export const PostDetails = styled.div`
@@ -47,4 +56,11 @@ export const PostStats = styled.div`
 export const Caption = styled.p`
   font-size: 14px;
   color: #1c1e21;
+`;
+
+export const Like = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 `;

@@ -4,14 +4,15 @@ export const Container = styled.header`
   background: var(--blue);
   color: #fff;
   width: 100%;
-  min-height: 8rem;
+  height: 10vh;
   display: flex;
   align-items: center;
+  padding: 10px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
   .logo {
     display: flex;
     align-items: center;
-    margin-left: 2rem;
   }
 
   svg {
