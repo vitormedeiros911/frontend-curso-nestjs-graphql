@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/vitormedeiros911/frontend-curso-nestjs-graphql-mongodb"
+            href="https://github.com/vitormedeiros911/frontend-curso-nestjs-graphql"
           >
             Repositório do front-end
           </a>
